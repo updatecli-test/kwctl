@@ -562,7 +562,7 @@ dependencies = [
  "chrono-tz",
  "gtmpl",
  "gtmpl_value",
- "itertools",
+ "itertools 0.10.5",
  "json-patch",
  "lazy_static",
  "regex",
@@ -1033,7 +1033,7 @@ dependencies = [
  "cranelift-codegen",
  "cranelift-entity",
  "cranelift-frontend",
- "itertools",
+ "itertools 0.10.5",
  "log",
  "smallvec",
  "wasmparser 0.95.0",
@@ -2360,6 +2360,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "itertools"
+version = "0.14.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2b192c782037fadd9cfa75548310488aabdbf3d2da73885b31bd0abd03351285"
+dependencies = [
+ "either",
+]
+
+[[package]]
 name = "itoa"
 version = "0.4.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2581,7 +2590,7 @@ dependencies = [
  "clap_complete",
  "directories 6.0.0",
  "flate2",
- "itertools",
+ "itertools 0.14.0",
  "k8s-openapi",
  "lazy_static",
  "mdcat",
@@ -3105,7 +3114,7 @@ dependencies = [
  "base64 0.13.1",
  "chrono",
  "http",
- "itertools",
+ "itertools 0.10.5",
  "log",
  "num-bigint",
  "oauth2",
@@ -3560,7 +3569,7 @@ dependencies = [
  "cached 0.42.0",
  "chrono",
  "dns-lookup",
- "itertools",
+ "itertools 0.10.5",
  "json-patch",
  "k8s-openapi",
  "kube",
