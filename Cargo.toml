@@ -45,7 +45,7 @@ wasmparser = "0.99"
 # feature across all the transitive dependencies of kwctl
 # This is required to have kwctl use the system certificates instead of the
 # ones bundled inside of rustls
-reqwest = { version = "0", default-features = false, features = ["rustls-tls-native-roots"] }
+reqwest = { version = "0.12.15", default-features = false, features = ["rustls-tls-native-roots"] }
 
 [dev-dependencies]
 rstest = "0.16.0"
