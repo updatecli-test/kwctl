@@ -33,7 +33,7 @@ serde_yaml = "0.9.34+deprecated"
 syntect = { version = "5.2.0" , default-features = false, features = ["parsing"] }
 tar = "0.4.44"
 tiny-bench = "0.4.0"
-tokio = { version = "^1", features = ["full"] }
+tokio = { version = "1.44.2", features = ["full"] }
 tracing = "0.1"
 tracing-futures = "0.2"
 tracing-subscriber = { version = "0.3", features = ["fmt"] }
